@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+  }
+  @font-face {
+    font-family: 'B';
+    src: url('../font/Pretendard-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'S';
+    src: url('../font/Pretendard-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'M';
+    src:url('../font/Pretendard-Medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'R';
+    src: url('../font/Pretendard-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'L';
+    src:url('../font/Pretendard-Light.woff') format('woff');
+  }
+  
+  /* 기본 스타일 리셋 및 폰트 정의 */
+  body, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+    color: #333;
+    text-decoration: none;
+  }
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3열 */
+    gap: 20px; /* 항목 사이의 간격 */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-instruction {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.order-instruction p {
+    font-size: 32px;
+    color: #555;
+    font-weight: bold;
+    font-family: 'B';
+    margin-top: 100px;
+}
