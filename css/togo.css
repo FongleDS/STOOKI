@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+  }
+  @font-face {
+    font-family: 'B';
+    src: url('../font/Pretendard-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'S';
+    src: url('../font/Pretendard-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'M';
+    src:url('../font/Pretendard-Medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'R';
+    src: url('../font/Pretendard-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'L';
+    src:url('../font/Pretendard-Light.woff') format('woff');
+  }
+  
+  /* 기본 스타일 리셋 및 폰트 정의 */
+  body, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+    color: #333;
+    text-decoration: none;
+  }
+
+  .menu-card {
+    display: flex;
+    width: 826px;
+    height: 599px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 155px auto 0 auto;
+}
+
+.menu-card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.menu-info {
+    background: linear-gradient(135deg, #92C1C1, #5696B1);
+    color: #ffffff;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-info h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.menu-info p {
+    margin: 5px 0 0 0;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.menu-info .price {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 806px;
+    height: 249px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    margin: 100px auto 0 auto;
+}
+
+.option-item1 {
+    text-align: center;
+}
+
+.option-item1 img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.option-item1 p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.option-item2 {
+    text-align: center;
+}
+
+.option-item2 img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.option-item2 p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.option-item3 {
+    text-align: center;
+}
+
+.option-item3 img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.option-item3 p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.order-instruction {
+    text-align: center;
+}
+
+.order-instruction p {
+    font-size: 32px;
+    color: #333;
+    margin-top: 100px;
+    font-weight: bold;
+}
