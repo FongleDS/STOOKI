@@ -4,35 +4,20 @@
     font-family: 'R';
   }
   @font-face {
-    font-family: 'B';
-    src: url('../font/Pretendard-Bold.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'S';
-    src: url('../font/Pretendard-SemiBold.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'M';
-    src:url('../font/Pretendard-Medium.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'R';
-    src: url('../font/Pretendard-Regular.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'L';
-    src:url('../font/Pretendard-Light.woff') format('woff');
-  }
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
   
   /* 기본 스타일 리셋 및 폰트 정의 */
   body, h2, h3, p, a {
     margin: 0;
     padding: 0;
-    font-family: 'R';
+    font-family: 'Pretendard-Regular';
     color: #333;
     text-decoration: none;
   }
-
   .menu-card {
     display: flex;
     width: 826px;
@@ -63,18 +48,21 @@
     margin: 0;
     color: #ffffff;
     font-size: 32px;
+    font-family: 'Pretendard-Regular';
 }
 
 .menu-info p {
     margin: 5px 0 0 0;
     font-size: 32px;
     color: #ffffff;
+    font-family: 'Pretendard-Regular';
 }
 
 .menu-info .price {
     font-size: 32px;
     font-weight: bold;
     text-align: right;
+    font-family: 'Pretendard-Regular';
 }
 
 .options {
@@ -98,29 +86,13 @@
 .option-item1 img {
     width: 120px;
     height: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .option-item1 p {
     font-size: 32px;
     font-weight: bold;
 }
-
-.option-item2 {
-    text-align: center;
-}
-
-.option-item2 img {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 10px;
-}
-
-.option-item2 p {
-    font-size: 32px;
-    font-weight: bold;
-}
-
 
 .option-item3 {
     text-align: center;
@@ -129,7 +101,7 @@
 .option-item3 img {
     width: 120px;
     height: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .option-item3 p {
@@ -143,7 +115,7 @@
 }
 
 .order-instruction p {
-    font-size: 32px;
+    font-size: 38px;
     color: #333;
     margin-top: 100px;
     font-weight: bold;
