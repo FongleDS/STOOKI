@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+  }
+  @font-face {
+    font-family: 'B';
+    src: url('../font/Pretendard-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'S';
+    src: url('../font/Pretendard-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'M';
+    src:url('../font/Pretendard-Medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'R';
+    src: url('../font/Pretendard-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'L';
+    src:url('../font/Pretendard-Light.woff') format('woff');
+  }
+  
+  /* 기본 스타일 리셋 및 폰트 정의 */
+  body, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'R';
+    color: #333;
+    text-decoration: none;
+  }
+
+
+.container {
+    margin-top: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.cancel-button {
+    background-color: #4D9DE0;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #357ABD;
+}

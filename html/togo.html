@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop or Togo</title>
+    <link rel="stylesheet" href="../css/togo.css">
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 100vh;
+        background-color: #efefef;
+    }
+
+    article {
+        width: 960px;
+        height: 1440px;
+        background-color: #F8FFFF;
+        border-radius: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    </style>
+</head>
+<body>    
+    <article>
+        <div class="menu-card">
+            <img src="../img/ice_americano.png" alt="아메리카노">
+            <div class="menu-info">
+                <div>
+                    <h2>아메리카노</h2>
+                    <p>ice</p>
+                    <ul id="extra-options"></ul> <!-- 추가 옵션 리스트 -->
+                </div>
+                <div class="price">금액 3,500원</div>
+            </div>
+        </div>
+        <div class="options">
+            <div class="option-item1" onclick="selectShopOrTogo('shop')">
+                <img src="../img/shop.png" alt="매장">
+                <p>매장</p>
+            </div>
+            
+            <div class="option-item3" onclick="selectShopOrTogo('togo')">
+                <img src="../img/togo.png" alt="포장">
+                <p>포장</p>
+            </div>
+        </div>
+        <div class="order-instruction">
+            <p>매장에서 드시겠어요? 포장해 가시겠어요?</p>
+        </div>
+    </article>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let options = JSON.parse(localStorage.getItem('options')) || [];
+            let optionsList = document.getElementById('extra-options');
+            
+            options.forEach(option => {
+                let li = document.createElement('li');
+                li.textContent = option === 'shot' ? '샷추가' : option === 'syrup' ? '시럽 추가' : '휘핑 크림';
+                optionsList.appendChild(li);
+            });
+        });
+    
+        function selectShopOrTogo(choice) {
+            localStorage.setItem('shopOrTogo', choice);
+            // 선택에 따라 리디렉션 또는 처리 수행
+        }
+    </script>
+</body>
