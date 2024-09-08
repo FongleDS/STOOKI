@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular';
+  }
+
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  /* 기본 스타일 리셋 및 폰트 정의 */
+  body, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular';
+    color: #333;
+    text-decoration: none;
+  }
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3열 */
+    gap: 20px; /* 항목 사이의 간격 */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-instruction {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.order-instruction p {
+    font-size: 38px;
+    color: #555;
+    font-weight: bold;
+    margin-top: 100px;
+}

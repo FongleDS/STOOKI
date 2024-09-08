@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot or Ice</title>
+    <link rel="stylesheet" href="../css/menu_option.css">
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 100vh;
+        background-color: #efefef;
+    }
+
+    article {
+        width: 960px;
+        height: 1440px;
+        background-color: #F8FFFF;
+        border-radius: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    </style>
+</head>
+<body>
+    <article>
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="../img/option_hot.png" alt="따뜻하게">
+            <p class="english">hot</p>
+            <p>따뜻하게</p>
+        </div>
+        <div class="menu-item">
+            <img src="../img/option_ice.png" alt="차갑게">
+            <p class="english">ice</p>
+            <p>차갑게</p>
+        </div>
+    </div>
+    <div class="order-instruction">
+        <p>따뜻하게 드시나요 차갑게 드시나요?</p>
+    </div>
+</article>
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/bc6d3278-0cfc-45af-8d7d-81aa4f79385d">
+</iframe>
+</body>
+</html>
