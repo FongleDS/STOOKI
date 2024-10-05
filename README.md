@@ -18,7 +18,7 @@ STOOkI는 이러한 문제를 해결하기 위해 개발되었습니다.
 STOOkI는 비대면 서비스의 확장 속에서 디지털 소외계층의 접근성과 사용성을 보장하여, 
 모든 사용자가 편리하게 서비스를 이용할 수 있는 환경을 조성하고자 합니다.
 
-<img src="https://github.com/user-attachments/assets/1f1bdf2f-f6b6-43b7-a96a-0cbd4f41673d" alt="기술" border="0" width="90px">
+<img src="https://github.com/user-attachments/assets/1f1bdf2f-f6b6-43b7-a96a-0cbd4f41673d" alt="기술" border="0" width="200px">
 
 - **기술 스택**
 
