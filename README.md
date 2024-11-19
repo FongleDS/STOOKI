@@ -49,7 +49,7 @@ STOOkI는 비대면 서비스의 확장 속에서 디지털 소외계층의 접�
       <tr width="100%">
           <td  align="center"><p>기획, 디자인</p><p>프론트엔드 개발</p><p>챗봇</p></td>
           <td  align="center"><p>백엔드</p></td>
-          <td  align="center"><p>프론트엔드</p><p>챗봇</p></td>
+          <td  align="center"><p> 프론트엔드 </p><p>챗봇</p></td>
      </tr>
   </table>
   <hr/>
